@@ -77,12 +77,7 @@ Also...
 [learnthreejs](http://learningthreejs.com/)
 [treehouse](https://teamtreehouse.com/community/the-beginners-guide-to-threejs)
 
-### Commented Code
 
-
-# Three JS
-
-Three.js is a cross-browser JavaScript library/API used to create and display animated 3D computer graphics in a web browser. Three.js uses WebGL. The source code is hosted in a repository on GitHub.
 
 ### Local Installation
 - mkdir 3js_practice
@@ -107,6 +102,9 @@ Paste the following into an index.html file in the root directory.
 </html>
 ```
 
+
+
+
 Then we will create the directory the three.js file will go into. 
 - `mkdir js`
 - `cd js`
@@ -118,7 +116,10 @@ Then follow this link to the [three.js build] and paste the library for our inde
 
 That's it for local setup! We will provide code from the official documentation which can either be imported directly into your HTML file, or you can change the script tags to link to a separate javascript file. 
 
-#### Add to the shape.js file!
+## Commented Code
+
+### Add to the shape.js file!
+
 ```javascript
 // initializes the scene, camera and renderer. three vital spects in 3D modeling
 let scene, camera, renderer;
